@@ -12,10 +12,11 @@ The 'new' method can take a simple string like the original or an array.
 String Examples
 -------------
 Find with a simple string
-
+```ruby
 20 34 55.56 -10 33 22.1
 7 18.389 +41 32.17
 13.2324 +33.91
+```
 
 ```ruby
 Constellation.new("6 43 49.5 -1 3 46.9")
