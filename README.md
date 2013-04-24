@@ -9,3 +9,7 @@ http://djm.cc/constellation.html is a Javascript port of a C program found here 
 
 The 'new' method can take a simple string like the original or an array.
 
+```ruby
+Constellation.new("20 34 55.56 -10 33 22.1")
+  => #<Constellation:0x000001026139a8 @ra=20.5821, @dec=-10.55613888888889, @abreviation="Cap", @name="Capricornus", @genitive="Capricorni">
+```
