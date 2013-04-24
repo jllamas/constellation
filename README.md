@@ -18,8 +18,8 @@ Find with a simple string
 13.2324 +33.91
 
 ```ruby
-Constellation.new("20 34 55.56 -10 33 22.1")
-  => #<Constellation:0x000001026139a8 @ra=20.5821, @dec=-10.55613888888889, @abreviation="Cap", @name="Capricornus", @genitive="Capricorni">
+Constellation.new("6 43 49.5 -1 3 46.9")
+ => #<Constellation:0x00000102744b60 @ra=6.730416666666667, @dec=-1.063027777777778, @abreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
 ```
 
 Array Examples
