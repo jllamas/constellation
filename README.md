@@ -7,7 +7,7 @@ This is a port of http://djm.cc/constellation.js into ruby.
 
 http://djm.cc/constellation.html is a Javascript port of a C program found here http://cdsarc.u-strasbg.fr/viz-bin/Cat?VI/42
 
-The 'new' method can take a simple string like the original or an array.
+The `Constellation.new()` method can take a simple string like the original or an array.
 
 String Examples
 -------------
@@ -25,7 +25,8 @@ Constellation.new("6 43 49.5 -1 3 46.9")
 
 Array Examples
 -------------
-RA - in decimal hours
+RA - in decimal hours. Somtimes RA is stored in decimal degrees, you can convert it to decimal hours with `ra_decimal_hours = ra_decimal_degrees * 24 / 360`.
+
 DEC - in decimal degrees
 
 ```ruby
