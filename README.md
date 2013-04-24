@@ -25,7 +25,7 @@ Constellation.new("6 43 49.5 -1 3 46.9")
 
 Array Examples
 -------------
-RA - in decimal hours. Somtimes RA is stored in decimal degrees, you can convert it to decimal hours with `ra_decimal_hours = ra_decimal_degrees * 24 / 360`.
+RA - in decimal hours. Somtimes RA is stored in decimal degrees, you can convert it to decimal hours with this `ra_decimal_hours = ra_decimal_degrees * 24 / 360` simple formula.
 
 DEC - in decimal degrees
 
