@@ -9,7 +9,7 @@ http://djm.cc/constellation.html is a Javascript port of a C program found here 
 
 The `Constellation.new()` method can take a simple string like the original or an array.
 
-String Examples
+String Example
 -------------
 Find with a simple string
 ```ruby
@@ -23,7 +23,7 @@ Constellation.new("6 43 49.5 -1 3 46.9")
  => #<Constellation:0x00000102744b60 @ra=6.730416666666667, @dec=-1.063027777777778, @abreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
 ```
 
-Array Examples
+Array Example
 -------------
 RA - in decimal hours. Somtimes RA is stored in decimal degrees, you can convert it to decimal hours with this `ra_decimal_hours = ra_decimal_degrees * 24 / 360` simple formula.
 
