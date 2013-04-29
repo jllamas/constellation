@@ -20,7 +20,7 @@ Find with a simple string
 
 ```ruby
 Constellation.new("6 43 49.5 -1 3 46.9")
- => #<Constellation:0x00000102744b60 @ra=6.730416666666667, @dec=-1.063027777777778, @abreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
+ => #<Constellation:0x00000102744b60 @ra=6.730416666666667, @dec=-1.063027777777778, @abbreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
 ```
 
 Array Example
@@ -31,5 +31,5 @@ DEC - in decimal degrees
 
 ```ruby
 Constellation.new([6.730408333333334, -1.063033])
-  => #<Constellation:0x00000104536a88 @ra=6.730408333333334, @dec=-1.063033, @abreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
+  => #<Constellation:0x00000104536a88 @ra=6.730408333333334, @dec=-1.063033, @abbreviation="Mon", @name="Monoceros", @genitive="Monocerotis">
 ```
