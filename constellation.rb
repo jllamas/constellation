@@ -1,6 +1,6 @@
 class Constellation
 
-  attr_accessor :abreviation, :name, :genitive, :ra, :dec
+  attr_accessor :abbreviation, :name, :genitive, :ra, :dec
   
   # ARRAY FORMAT
   # [ ra_in_decimal_hours, dec_in_decimal_degrees
@@ -20,13 +20,13 @@ class Constellation
     if coordlist
       @ra = coordlist[0]
       @dec = coordlist[1]      
-      @abreviation = Constellation.get_name(@ra, @dec, 2000.0)
-      @name = Constellation.names[@abreviation.to_sym].first
-      @genitive = Constellation.names[@abreviation.to_sym].last
+      @abbreviation = Constellation.get_name(@ra, @dec, 2000.0)
+      @name = Constellation.names[@abbreviation.to_sym].first
+      @genitive = Constellation.names[@abbreviation.to_sym].last
     else
       @ra = nil
       @dec = nil
-      @abreviation = nil
+      @abbreviation = nil
       @name = nil
       @genitive =  nil
     end
